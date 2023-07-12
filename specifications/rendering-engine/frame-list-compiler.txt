@@ -1,0 +1,7 @@
+<insert model specification>
+
+Here is a specification for a FrameList Compiler.
+
+It is a function that takes a list of Frame POJOs and returns a list of Frame class instances. The POJOs may or may not have all of the properties of the Frame class defined. If a property is not defined, the property set to the Frame class instance should be set to that of the last Frame POJO that defined the property. This applies to properties of sub objects within the Frame Class (i.e. the property "font" of the NovelText class should be set to that of the last NovelText pojo to have the font property defined).
+
+Please generate the FrameList Compiler.

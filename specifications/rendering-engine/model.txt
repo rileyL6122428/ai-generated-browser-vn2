@@ -1,0 +1,16 @@
+Here is a specification for JavaScript model classes. Each class has a contructor with one parameter, called params, which is an object with all of the classes parameters as properties.
+
+First model class is called Frame. Properties:
+- background, a string
+- portraits, a list of Portrait objects (defined later)
+- novelText, a instance of the NovelText class
+
+Next model class is called Portrait. Properties:
+- url, a string
+- x, a number
+
+Next model class is NovelText. Properties:
+- font, a string
+- filleStyle, a string
+- backdropFillStyle, a string
+- content, a string
